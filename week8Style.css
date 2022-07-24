@@ -1,0 +1,34 @@
+/* Question 1 */
+body {
+    background: blue;
+}
+/* Question 2 */
+#text-2 {
+    color: red;
+}
+/* Question 3 */
+.box {
+    margin: 25%;
+    border-radius: 25px;
+    border: 1px solid black;
+}
+/* Question 4 */
+li:hover {
+    background: white;
+}
+/* Question 5 */
+table {
+    margin: 10px;
+    width: 900px;
+    /* border-spacing: 40px; */
+}
+th {
+    text-align: left;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+tr:nth-child(3n) {
+    background-color: gray;
+}
